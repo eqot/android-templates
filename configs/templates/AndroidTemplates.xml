@@ -1,0 +1,8 @@
+<templateSet group="AndroidTemplates">
+  <template name="tag" value="@SuppressWarnings(&quot;unused&quot;)&#10;private static final String TAG = $CLASSNAME$.class.getSimpleName();&#10;" description="Class's tag" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASSNAME" expression="className()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+</templateSet>
